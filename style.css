@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Light background for a clean look */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Improved readability */
+}
+
+header {
+    background-color: #4A90E2; /* Blue header */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+nav a {
+    color: #ffffff; /* White links */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #FFD700; /* Gold on hover */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Text shadow on hover */
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto; /* Centered section */
+    max-width: 800px; /* Maximum width for better readability */
+    background-color: #ffffff; /* White section background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    font-size: 2.5em; /* Large header */
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    color: #4A90E2; /* Blue subheadings */
+    margin-top: 0;
+    border-bottom: 2px solid #4A90E2; /* Underline effect */
+    padding-bottom: 5px; /* Space below underline */
+}
+
+h3 {
+    color: #D0021B; /* Red for emphasis */
+    margin-top: 20px; /* Space above */
+}
+
+ul {
+    list-style-type: none; /* No bullets */
+    padding: 0;
+}
+
+ul li {
+    background-color: #E1F5FE; /* Light blue for list items */
+    margin: 10px 0;
+    padding: 15px; /* Increased padding for list items */
+    border-radius: 5px; /* Rounded corners for list items */
+    transition: background-color 0.3s; /* Smooth background change */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+ul li:hover {
+    background-color: #BBDEFB; /* Slightly darker blue on hover */
+}
+
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* More rounded corners for images */
+    margin-top: 20px; /* Space above the image */
+    border: 2px solid #4A90E2; /* Border around image */
+}
